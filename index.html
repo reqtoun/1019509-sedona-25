@@ -27,7 +27,25 @@
       <section class="appointment">
         <h2>Заинтересовались?</h2>
         <p>Укажите предпологаемую дату поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <!-- Здесь будет форма -->
+        <button type="button" name="button">Поиск гостиниц в Седоне</button>
+        <form class="form-back" action="index.html" method="post">
+          <p>
+            <label for="date-arrival">Дата заезда</label>
+            <input id="date-arrival" type="date" name="input-data" >
+          </p>
+          <p>
+            <label for="date-departure">Дата выезда</label>
+            <input id="date-departure" type="date" name="input-data" >
+          </p>
+          <p>
+            <label for="number-children">Дети</label>
+            <input id="number-children" type="number" name="input-number">
+          </p>
+          <p>
+            <label for="number-adults">Взрослые</label>
+            <input id="number-adults" type="number" name="input-number">
+          </p>
+        </form>
       </section>
     </main>
     <footer class="main-footer">
