@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.intro {
+  background-image: url("img/bg.jpg");
+  width: 1200px;
+  height: 773px;
+  object-fit: contain;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation{
+
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover{
+color: #81b3d2;
+}
+.site-navigation a:focus{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.advantage-list{
+  list-style: none;
+}
+.more-advantages{
+  list-style: none;
+}
+
+.main-footer{
+  background-image: url("img/map.jpg");
+}
