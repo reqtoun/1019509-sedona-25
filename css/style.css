@@ -33,6 +33,7 @@ a {
 .advantage-list,
 .more-advantages {
   list-style: none;
+  font-weight: bold;
 }
 
 .site-navigation a,
@@ -46,6 +47,10 @@ a {
 .footer-social a:hover,
 .detailed-buttom {
 color: #81b3d2;
+}
+
+.font-weight-normal {
+  font-weight: normal;
 }
 
 .detailed-buttom,
@@ -67,6 +72,19 @@ color: #81b3d2;
 .site-navigation a:focus,
 .footer-social a:focus{
   color: rgba(0, 0, 0, 0.3);
+}
+
+.interested h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.search-hotels {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  color: #ffffff;
 }
 
 .form-back {
