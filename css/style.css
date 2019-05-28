@@ -12,6 +12,13 @@ body {
     object-fit: contain;
 }
 
+.intro h2 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  width: 440px;
+  text-align: center;
+}
 
 a {
   text-decoration: none;
@@ -21,26 +28,45 @@ a {
 
 }
 
-.site-navigation {
+.site-navigation,
+.social-list,
+.advantage-list,
+.more-advantages {
   list-style: none;
 }
 
-.site-navigation a {
+.site-navigation a,
+.footer-social a,
+.social-list,
+.button-copyright{
   color: #000000;
 }
 
-.site-navigation a:hover{
+.site-navigation a:hover,
+.footer-social a:hover,
+.detailed-buttom {
 color: #81b3d2;
 }
-.site-navigation a:focus{
-  color: rgba(0, 0, 0, 0.3);
+
+.detailed-buttom,
+.book-buttom {
+  font-size: 14px;
+  color: #ffffff;
 }
 
-.advantage-list{
-  list-style: none;
+.detailed-buttom {
+  background-color: #81b3d2;
 }
-.more-advantages{
-  list-style: none;
+
+.book-buttom {
+  background-color: #766357;
+}
+
+
+
+.site-navigation a:focus,
+.footer-social a:focus{
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .form-back {
@@ -49,24 +75,4 @@ color: #81b3d2;
 
 .main-footer{
   background-image: url("img/map.jpg");
-}
-
-.social-list{
-  list-style: none;
-}
-
-.footer-social a {
-  color: #000000;
-}
-
-.footer-social a:hover{
-  color: #81b3d2;
-}
-
-.footer-social a:focus{
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.button-copyright{
-  color: #000000;
 }
