@@ -3,8 +3,6 @@ body {
 
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 14px;
-  line-height: 24px;
-  font-weight: 700;
   color: #000000;
   text-transform: uppercase;
 }
@@ -37,10 +35,28 @@ color: #81b3d2;
 .book-buttom {
   font-size: 14px;
   color: #ffffff;
-  width: 110px;
-  height: 27px;
 }
 
 .detailed-buttom {
  background-color: #81b3d2;
+}
+
+.book-buttom {
+  background-color: #766357;
+}
+
+.footer-social ul {
+  list-style:none;
+}
+
+.social-button {
+  color: #000000;
+}
+
+.social-button:hover{
+color: #81b3d2;
+}
+
+.social-button:focus{
+  color: rgba(0, 0, 0, 0.3);
 }
