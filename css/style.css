@@ -57,6 +57,8 @@ color: #81b3d2;
 .book-buttom {
   font-size: 14px;
   color: #ffffff;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .detailed-buttom {
@@ -72,6 +74,16 @@ color: #81b3d2;
 .site-navigation a:focus,
 .footer-social a:focus{
   color: rgba(0, 0, 0, 0.3);
+}
+
+.hotels-amara h2,
+.hotels-desert h2,
+.hotels-villas h2 {
+
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+
 }
 
 .interested h2 {
