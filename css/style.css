@@ -15,7 +15,7 @@ body {
 .intro h2 {
   font-size: 21px;
   font-weight: bold;
-  line-height: 1.24;
+  line-height: 26px;
   width: 440px;
   text-align: center;
 }
@@ -63,7 +63,7 @@ color: #81b3d2;
   font-size: 14px;
   color: #ffffff;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 21px;
 }
 
 .detailed-buttom {
@@ -98,20 +98,20 @@ color: #81b3d2;
 
   font-size: 21px;
   font-weight: bold;
-  line-height: 1.24;
+  line-height: 26px;
 
 }
 
 .interested h2 {
   font-size: 30px;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 36px;
 }
 
 .search-hotels {
   font-size: 21px;
   font-weight: bold;
-  line-height: 1.24;
+  line-height: 26px;
   color: #ffffff;
 }
 
