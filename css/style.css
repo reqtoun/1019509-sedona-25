@@ -49,6 +49,11 @@ a {
 color: #81b3d2;
 }
 
+.site-navigation a:focus,
+.footer-social a:focus{
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .font-weight-normal {
   font-weight: normal;
 }
@@ -65,15 +70,26 @@ color: #81b3d2;
   background-color: #81b3d2;
 }
 
+.detailed-buttom:hover {
+  background-color: #669ec0;
+}
+
+.detailed-buttom:focus {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .book-buttom {
   background-color: #766357;
 }
 
+.book-buttom:hover {
+  background-color: #604e43;
+}
 
-
-.site-navigation a:focus,
-.footer-social a:focus{
-  color: rgba(0, 0, 0, 0.3);
+.book-buttom:focus{
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .hotels-amara h2,
