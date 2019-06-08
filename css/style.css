@@ -5,11 +5,19 @@ body {
   font-size: 14px;
   color: #000000;
   text-transform: uppercase;
+  width: 1200px;
 }
 
 .bacground-intro {
     background-image: url("img/bg.jpg");
     object-fit: contain;
+    height: 780px;
+    width: 1200px;
+}
+
+.welcom-sedona {
+  width: 459px;
+  height: 353px;
 }
 
 .intro h2 {
@@ -121,4 +129,38 @@ color: #81b3d2;
 
 .main-footer{
   background-image: url("img/map.jpg");
+}
+
+
+
+/* Сетка */
+
+.bacground-intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.bacground-intro {
+  margin-bottom: 780px;
+
+
+}
+
+.main-header-logo {
+  width: 140px;
+ height: 71px;
+ display: flex;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.intro section {
+  display: flex;
+  order: 2;
+  flex-direction: column;
 }
